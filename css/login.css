@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4B38CF;
+}
+
+
+form{
+    background-color: #635BFF;
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    justify-content: center;
+    margin-top: 200px;
+    padding: 20px;
+    border-radius: 8px;    
+}
+
+.container{
+    display: flex;
+}
+
+.logo{
+    align-items: right;
+    vertical-align: middle;
+
+}
+
+.form-control{
+    border-radius: 20px;
+    height: 45px;
+}
+
+.botao{
+    height: 40px;
+    width: 120px;
+    background-color: #4B38CF;
+    box-shadow: #000000 3px 3px blur 25%;
+    border-radius: 20px;
+    justify-content: right;
+    margin-left: 340px;
+}
