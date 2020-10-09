@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -106,6 +107,8 @@ section {
 }
 body {
   line-height: 1;
+  transform: scaleX(0.9);
+  transform: scaleY(1.0);
 }
 ol,
 ul {
@@ -183,7 +186,7 @@ header {
   top: 16px;
 }
 body {
-  background-color: #F5F7FA;
+  background-color: #C4BCFF;
 }
 #app {
   margin-left: 100px;
@@ -280,9 +283,9 @@ body {
   flex: 0 0 auto;
   width: 340px;
   height: 520px;
-  background: #FFFFFF;
+  background: #C4BCFF;
   box-sizing: border-box;
-  border-radius: 1px;
+  border-radius: 10px;
   margin-left: 40px;
   background-color: white;
 }

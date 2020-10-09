@@ -10,7 +10,7 @@ form{
     background-color: #635BFF;
     margin: 0 auto;
     width: 500px;
-    height: 400px;
+    height: 300px;
     justify-content: center;
     margin-top: 200px;
     padding: 20px;
@@ -18,13 +18,11 @@ form{
 }
 
 .container{
-    display: flex;
+    flex-wrap: wrap;
 }
 
 .logo{
-    align-items: right;
-    vertical-align: middle;
-
+    margin-left: 440px;
 }
 
 .form-control{
@@ -40,4 +38,12 @@ form{
     border-radius: 20px;
     justify-content: right;
     margin-left: 340px;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+
+label{
+    font-family: 'Architects Daughter', cursive;
+    font-size: medium;
+    color: white;
 }
